@@ -24,6 +24,10 @@ class AdminStatsOverview extends BaseWidget
             ->description('3% increase')
             ->descriptionIcon('heroicon-m-arrow-trending-up')
             ->color('success'),
+        //Stat::make('Average time on page', '3:12')
+            //->description('3% increase')
+            //->descriptionIcon('heroicon-m-arrow-trending-up')
+           // ->color('success'),
         ];
     }
 }
